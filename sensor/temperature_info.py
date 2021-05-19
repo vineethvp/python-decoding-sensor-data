@@ -6,7 +6,6 @@ class TemperatureData(HouseInfo):
         recs=[]
         for rec in data:
             recs.append(int(rec,base=10))
-
         return recs
 
     def get_data_by_area(self,rec_area=0):
